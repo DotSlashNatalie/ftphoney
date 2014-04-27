@@ -94,7 +94,7 @@ void ftp::execute()
 			s = stream->line(256);
 			writeLog(stream->get_ip(), s, "BANNER");
 			
-			writeClient(stream, "330 Password required to access user account");
+			writeClient(stream, "331 Password required to access user account");
 			
 			s = stream->line(256);
 			writeLog(stream->get_ip(), s, "PASSWORD");
