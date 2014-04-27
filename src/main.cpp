@@ -2,6 +2,7 @@
 #include <ptypes/pasync.h>
 #include <ptypes/pinet.h>
 #include <ptypes/ptime.h>
+#include <cstdlib>
 
 USING_PTYPES;
 
