@@ -1,0 +1,8 @@
+Package: ftphoney 
+Version: 1 
+Section: base 
+Priority: optional 
+Architecture: all 
+Depends: bash 
+Maintainer: adamsna@datanethost.net
+Description: Runs a non-RFC compliant FTP honey pot that is designed to trap any commmands that is sent from the client. It currently will ignore any requests.
